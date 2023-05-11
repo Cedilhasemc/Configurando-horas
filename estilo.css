@@ -1,3 +1,29 @@
 body {
-     background-image: linear-gradient( to right, #660000 , #8B0000, #800000, #CC1100, #DC143C);
+    background-image: linear-gradient( to left, #660000 , #8B0000, #800000, #CC1100, #DC143C);
+}
+#main{
+    width: 600px;
+    height: 200px;
+    background-image: linear-gradient(to right, white, #707070);
+    margin-left: 25%;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 100px;
+    border-radius: 2%;
+}
+#ligar{
+    width: 100px;
+    height: 70px;
+    background-image: linear-gradient(to right, rgb(0, 255, 0), rgb(0, 77, 0));
+    margin-left: 40%;
+    border-radius: 20%;
+}
+#desligar{
+    width: 100px;
+    height: 70px;
+    background-image: linear-gradient(to right, rgb(0, 255, 0), rgb(0, 77, 0));
+    margin-left: 3%;
+    margin-top: 20px;
+    border-radius: 20%;
 }
